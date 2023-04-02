@@ -1,9 +1,10 @@
-// leetcode 1480
-
 package main
 
 import "fmt"
 
+// leetcode 1480
+// Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
+// Return the running sum of nums.
 func runningSum(nums []int) []int {
 	prev := 0
 	for i := range nums {
