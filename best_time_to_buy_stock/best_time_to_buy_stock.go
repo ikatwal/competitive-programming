@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Solved 121
+
 func maxProfit(prices []int) int {
 	minPrice := prices[0]
 	profit := 0
