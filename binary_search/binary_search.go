@@ -25,5 +25,4 @@ func main() {
 	in := []int{-1, 0, 3, 5, 9, 12}
 	fmt.Println(search(in, 9) == 4)
 	fmt.Println(search(in, 19) == -1)
-
 }
